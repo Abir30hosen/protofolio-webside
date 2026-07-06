@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common style */
+.common-btn {
+    background-color: #FD6E0A;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+}
+.contianer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.logo-r{
+    color: #FD6E0A;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+}
+
+
+/* Hero section style */
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
